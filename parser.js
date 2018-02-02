@@ -117,6 +117,7 @@ function generateAST(code, options, additionalParsingContext) {
     }
 
     if (!isRunningSupportedTypeScriptVersion && !warnedAboutTSVersion) {
+        /*
         const border = "=============";
         const versionWarning = [
             border,
@@ -128,6 +129,7 @@ function generateAST(code, options, additionalParsingContext) {
             border
         ];
         extra.log(versionWarning.join("\n\n"));
+        */
         warnedAboutTSVersion = true;
     }
 
